@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+block style 
+    style   
+        include ../static/style.css
+
+block content 
+        
+
+    section#introSection
+        div Welcome to Mihir's Dance Academy 
+        div.small Live Learn Dance.
+        
+    section#missionSection
+        h2 Our Mission 
+
+        div.card
+            h3 Dance is perfection
+            div.card-box
+                div.card-img    
+                    img(src="static/Images/dance3.png")
+
+            div.card-contain 
+                p Lorem ipsum dolor sit amet consectetur.
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img    
+                    img(src="static/Images/dance2.png")
+
+            div.card-contain 
+                p Lorem ipsum dolor sit amet consectetur.
+
+        div.card
+            h3 Dance to make yourself healthy
+            div.card-box
+                div.card-img    
+                    img(src="static/Images/dance3.png")
+
+            div.card-contain 
+                p Lorem ipsum dolor sit amet consectetur.
+
+
+    section#sponsorSection
+        h2 Our Sponsors 
+        div#sponsors
+            img(src="static/Images/logo-1.png", alt="error" class="spImage")
+            img(src="static/Images/logo-2.png", alt="error" class="spImage")
+            img(src="static/Images/logo-3.png", alt="error" class="spImage")
+            img(src="static/Images/logo-4.png", alt="error" class="spImage")
+                
